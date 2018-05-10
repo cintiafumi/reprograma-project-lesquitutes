@@ -31,15 +31,15 @@ body .nav-link, body .les-subitem {
   font-size: 14px;
 }
 
-body a.les-red-item {
+body span.les-red-item {
   border-bottom: 2px solid #ef476e;
 }
 
-body a.les-yellow-item {
+body span.les-yellow-item {
   border-bottom: 2px solid #ffd166;
 }
 
-body a.les-green-item {
+body span.les-green-item {
   border-bottom: 2px solid #07d6a0;
 }
 
@@ -53,7 +53,7 @@ body .les-subitem:active {
   font-weight: bolder;
 }
 
-body .les-submenu a.active {
+body .les-submenu button.active {
   color: black;
   font-weight: bolder;
 }

@@ -37,13 +37,13 @@ body {
 
   // Submenu
 
-  a.les-red-item {
+  span.les-red-item {
     border-bottom:2px solid $les-red;
   }
-  a.les-yellow-item {
+  span.les-yellow-item {
     border-bottom:2px solid $les-yellow;
   }
-  a.les-green-item {
+  span.les-green-item {
     border-bottom:2px solid $les-green;
   }
   
@@ -57,7 +57,7 @@ body {
     font-weight: bolder;
   }
 
-  .les-submenu a.active {
+  .les-submenu button.active {
     color: black;
     font-weight: bolder;
   }
